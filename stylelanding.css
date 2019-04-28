@@ -1,0 +1,55 @@
+
+  /* Navbar*/
+.navbar-brand{
+    font-size: 30px;
+    font-style: normal;
+    background-color: white;
+    font-weight: bold;
+}
+.btn-group{
+    font-size: 30px;
+    font-style: normal;
+    color: blue;
+    background-color: white;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0px;
+}
+/* container */
+.box {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(13, 173, 194);
+       }
+
+    .h3{
+        font-size: 15px; 
+
+       }
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
+
+  background{
+      color:grey;
+  }
+  
